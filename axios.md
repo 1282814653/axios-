@@ -1,3 +1,5 @@
+```js
+//  这是在vue 中使用
 import axios from "axios";
 import qs from "qs";
 // 设置 请求的 默认网址
@@ -45,3 +47,5 @@ export default axios;
 
 // 导出后 需要 把 axios 引入 到 main.js 中的
 //  然后在vue 实例上挂载  Vue.prototype.$ajax = axios;
+
+```
