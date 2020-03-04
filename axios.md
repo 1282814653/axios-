@@ -3,9 +3,9 @@
 import axios from "axios";
 import qs from "qs";
 // 设置 请求的 默认网址
-// axios.defaults.baseURL = "http://59.110.138.169"; // 生产环境地址
+// axios.defaults.baseURL = "http://xx.xx.xx.xx"; // 生产环境地址
 if (process.env.NODE_ENV == "development") {
-  axios.defaults.baseURL = "http://59.110.138.169"; // 生产环境地址
+  axios.defaults.baseURL = "http://xx.xx.xx.xx"; // 生产环境地址
 } else {
   axios.defaults.baseURL = "http://59.110.138.168"; // 开发环境地址
 }
